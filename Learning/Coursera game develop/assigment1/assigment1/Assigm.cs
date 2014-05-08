@@ -8,7 +8,7 @@ namespace assigment1
     /// <summary>
     /// Class that keep track about info of a player such as gold or points.
     /// </summary>
-    class Program
+    class Assigment1
     {
         /// <summary>
         /// mehtod that read gold and score and printed to the user.
@@ -16,10 +16,9 @@ namespace assigment1
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-
+ 
             int gold = 0;
             float time = 0;
-            int minutePlayed = 0;
             const int HOUR_TO_MINUTE = 60;
 
             Console.WriteLine("Welcome, This is just testing");
